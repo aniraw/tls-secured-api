@@ -4,7 +4,7 @@ on:
   push:
     branches:
       # run on if push is on ftr1
-      - my-feature1
+      - ftr1
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
